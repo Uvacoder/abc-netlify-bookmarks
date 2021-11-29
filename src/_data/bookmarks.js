@@ -2,7 +2,7 @@ var axios   = require('axios');
 
 async function getBookmarks() {
     if (process.env.CONTEXT == "production") {
-        var url = `https://brobmarks.netlify.com/.netlify/functions/bookmarks`;
+        var url = `https://abc-netlify-bookmarks.netlify.app/.netlify/functions/bookmarks`;
     } else { 
         var url = `http://localhost:9000/.netlify/functions/bookmarks`
     }
