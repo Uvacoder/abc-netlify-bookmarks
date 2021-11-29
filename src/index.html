@@ -15,7 +15,7 @@
     </section>
 
     <ul>
-    {% assign links = bookmarks | reverse %}
+    {% assign links = bookmarks %}
     {% for link in links %}
     {% if link.url and link.pagetitle %}
         <li>
